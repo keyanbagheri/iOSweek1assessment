@@ -35,7 +35,7 @@
 //        send to web view
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Web view unlocked!" message:@"Click the web button to begin browsing!" preferredStyle:UIAlertControllerStyleAlert];
         
-        UIAlertAction* ok = [UIAlertAction actionWithTitle:@"NEXT" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+        UIAlertAction* ok = [UIAlertAction actionWithTitle:@"OK!" style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
             _webViewUnlocked = YES;
         }];
         
